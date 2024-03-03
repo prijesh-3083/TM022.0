@@ -1,0 +1,102 @@
+<% layout('/layouts/boilerplate') -%>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 1400px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+        text-align: center;
+        color: #000;
+        /* text-decoration: underline; */
+        margin-bottom: 30px;
+    }
+    .section {
+        margin-bottom: 40px;
+    }
+    .section h2 {
+        color: #000;
+    }
+    .section p {
+        color: #000;
+    }
+    .line{
+        content: "";
+        width: 90%;
+        height: 1px;
+        background: #000;
+        margin: 1rem auto 4rem;
+        
+    }
+    .videosection{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .videosection1, .videosection2{
+        width: 560px;
+        height: 315px;
+    }
+    @media (max-width: 768px ) {
+        .container {
+            padding: 20px;
+        }
+        .videosection{
+            flex-wrap: wrap;
+        }
+        .videosection1, .videosection2{
+            max-width: 390px;
+            width: auto;
+            height: auto;
+        }
+    }
+</style>
+<body>
+
+    <div class="container">
+    <h1>E-Waste Education</h1>
+
+    <div class="section">
+        <h2>Disadvantages on Human Life and Nature</h2>
+        <p>E-waste contains hazardous materials that can leach into the soil and water, contaminating the environment and posing health risks to humans and wildlife. Improper disposal methods, such as burning or dumping, contribute to air and water pollution, leading to respiratory problems, cancer, and other illnesses.</p>
+    </div>
+    <div class="line"></div>
+    <div class="section">
+        <h2>Solutions</h2>
+        <p>To tackle e-waste, it's crucial to promote awareness and responsible disposal practices. Encourage recycling programs and electronic take-back initiatives to properly dispose of old devices. Support policies that hold manufacturers accountable for the lifecycle of their products, including design for disassembly and recycling. Emphasize the importance of reducing electronic consumption and opting for repair and refurbishment whenever possible.</p>
+    </div>
+    <div class="line"></div>
+
+    <div class="section">
+        <h2>Advantages on Human Life and Nature</h2>
+        <p>Proper e-waste management offers numerous benefits to human life and nature. Recycling electronics conserves natural resources, reduces energy consumption, and minimizes greenhouse gas emissions associated with manufacturing new devices. It also creates job opportunities in the recycling industry and protects ecosystems from the harmful effects of pollution. By responsibly managing e-waste, we can safeguard both human health and the environment for future generations.</p>
+    </div>
+    <div class="videosection">
+        <div class="videosection1">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ApdkhWd7SfQ?
+    si=XIrHR-TIQIKgmU1F" title="YouTube video player" frameborder="0" allow="accelerometer; 
+    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen></iframe>
+    <div><p>English&nbsp;/&nbsp;hearable</p></div>
+        </div>
+        <div class="videosection2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3s_ZNEFPiE0?
+    si=sEYMv4nRqj3vYhlY" title="YouTube video player" frameborder="0" allow="accelerometer; 
+    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen></iframe>
+    <div><p>Mute&nbsp;/&nbsp;not-hearable</p></div>
+        </div>
+    </div>
+</div>
+
+</body>
+
